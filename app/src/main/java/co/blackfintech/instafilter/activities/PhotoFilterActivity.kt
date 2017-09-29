@@ -137,7 +137,7 @@ class PhotoFilterActivity : AppCompatActivity() {
     startActivityForResult(intent, REQUEST_CODE_PHOTO_PICK)
   }
 
-  private fun saveImage() {
+  private fun saveImages() {
 
     val filename = "${System.currentTimeMillis()}.jpg"
     val path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
